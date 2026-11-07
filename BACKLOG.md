@@ -18,6 +18,8 @@
 - [ ] **#4** Move 907.life to approval-queue's look (the Survey theme) `#improvement` `#907-life` `#initiative:docs-system` *(2026-10-20)*
   Geoff's ruling in the reviewed-pages prototype sitting: the review queue's look is the house
   look, and 907.life adopts it rather than the reverse. Source: `cairn-themes/survey-theme/`.
+- [ ] **#5** Fix the Workers Builds check that fails on every pull request `#bug` `#907-life` *(2026-11-07)*
+  The "Workers Builds: 907-life" check fails in 0 seconds on every PR branch (#2, #3, and the credential-hygiene contact PR), while the deploy workflow on `main` passes. Find why the branch build fails, or turn the check off for non-production branches. Found by credential-hygiene pass C.
 
 ## Low
 
